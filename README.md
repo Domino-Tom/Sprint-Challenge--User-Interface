@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    While all HTML structures a document, semantic HTML is concerned with giving context to the information. This context isn't meant for direct access by the user; those are presentational elements. Semantic elements are meant to be interpreted by technology such as search engines and screen readers. They tell the interacting tech which information is grouped together and in what way. Is it a navigation bar? Is this an article? Maybe a menu? A computer can't infer these things on its own, but it can be told by use of these elemnts.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Inline display shows information in only as much space as is necessary so as not to disrupt the flow of the document. As such, things like height and width cannot be adjusted on these items. Block display breaks to a new line on top and bottom, occupying as much width as the parent element allows. This can be adjusted.
 
 3. What are the 4 areas of the box model?
 
+    The four areas of the box model are content, padding, border, and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    This property works on the cross-axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Git, when used correctly, preserves prior work-states on software. This way, flaws introduced in new-code or lost work doesn't reset the entire work process. You simply have to get the latest build on the repository and only do you're missing from that point. This is why correct usage is important: if you don't have regular commits, having a git repo is sort of pointless.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
