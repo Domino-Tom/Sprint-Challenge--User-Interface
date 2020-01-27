@@ -102,6 +102,33 @@ nav li {
     font-size: .9rem;
 }
 
+.mid-section {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 450px;
+    margin-bottom: 8%;
+    border-bottom: 1px dashed black;
+}
+
+.info-card a {
+    text-decoration: none;
+    color: inherit;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    text-align: center;
+    padding: 10px;
+    margin: 2.5% 0;
+}
+
 /* -------------- My Code Here! -------------------- */
 
 .top-content {
@@ -116,6 +143,19 @@ nav li {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container-single {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0 1%;
+    padding-bottom: 20px;
+}
+
+.cta {
+    width: 96%;
+    margin: 0 auto;
 }
 
 .middle-content {
