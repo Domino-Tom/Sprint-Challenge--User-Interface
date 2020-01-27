@@ -71,6 +71,39 @@ p {
     margin: 0 auto;
 }
 
+/* -------------- My Code Here! -------------------- */
+
+.flex {
+    display: flex;
+}
+
+.nav-bar {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-image {
+    margin-bottom: 2.5%;
+}
+
+nav {
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 82.5%;
+}
+
+nav li {
+    list-style: none;
+    font-size: .9rem;
+}
+
+/* -------------- My Code Here! -------------------- */
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
